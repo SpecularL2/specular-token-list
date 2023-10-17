@@ -1,0 +1,10 @@
+{
+  "name": "Test1",
+  "symbol": "TT1",
+  "decimals": 18,
+  "tokens": {
+    "specular": {
+      "address": "0x608f0BeB4F0Ca63d96aDe766a697E35cC622DD28"
+    }
+  }
+}

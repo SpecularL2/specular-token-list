@@ -1,0 +1,10 @@
+{
+  "name": "Wrapped Ether",
+  "symbol": "WETH",
+  "decimals": 18,
+  "tokens": {
+    "specular": {
+      "address": "0x4d40D49cbbc18E58F4326c54E24793b84f050CD5"
+    }
+  }
+}

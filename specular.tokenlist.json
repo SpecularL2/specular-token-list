@@ -1,0 +1,41 @@
+{
+  "name": "Specular Token List",
+  "logoURI": "https://specular-token-list.github.io/specular.svg",
+  "keywords": [
+    "scaling",
+    "layer2",
+    "infrastructure"
+  ],
+  "timestamp": "2023-10-17T16:02:15.778Z",
+  "tokens": [
+    {
+      "chainId": 93481,
+      "address": "0x608f0BeB4F0Ca63d96aDe766a697E35cC622DD28",
+      "name": "Test1",
+      "symbol": "TT1",
+      "decimals": 18,
+      "logoURI": "https://specular-token-list.github.io/data/TEST1/logo.svg"
+    },
+    {
+      "chainId": 93481,
+      "address": "0x592A4be1d111AE28be1a8EA8878007833ce7F402",
+      "name": "Test2",
+      "symbol": "TT2",
+      "decimals": 18,
+      "logoURI": "https://specular-token-list.github.io/data/TEST2/logo.svg"
+    },
+    {
+      "chainId": 93481,
+      "address": "0x4d40D49cbbc18E58F4326c54E24793b84f050CD5",
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18,
+      "logoURI": "https://specular-token-list.github.io/data/WETH/logo.svg"
+    }
+  ],
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  }
+}
