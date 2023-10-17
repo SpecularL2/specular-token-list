@@ -57,7 +57,7 @@ pull_request_rules:
       comment:
         message: |
           Thanks for creating the PR! We're stoked to see you building on Specular.
-          Please give our team about a week to review your PR :)
+          Please give our team some time review your PR :)
 
   - name: Say thanks
     conditions:
@@ -66,4 +66,4 @@ pull_request_rules:
     actions:
       comment:
         message: |
-          Congrats! Your token has been merged.  Consider joining our Discord to stay up to date with other builders in the ecosystem. Make sure to drink plenty of water.
+          Congrats! Your token has been merged. Consider joining our Discord to stay up to date with other builders in the ecosystem.
