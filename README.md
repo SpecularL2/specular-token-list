@@ -151,3 +151,7 @@ Your pull request will be validated by a series of automated checks. If one of t
 ### Wait for the token list to update automatically
 
 Once your PR is merged, the token list will update automatically to include your token. Please do NOT update the token list (`specular.tokenlist.json`) directly. All token list updates will be handled automatically when PRs are merged into the `master` branch.
+
+### Credits
+
+This token-list utilizes code and resources from the following repositories: [Github](https://github.com/ethereum-optimism/ethereum-optimism.github.io/)
