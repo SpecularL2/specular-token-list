@@ -14,8 +14,7 @@ import { L2Chain, Token, TokenData, isL1Chain, isL2Chain } from './types'
 /**
  * Base URL where static assets are hosted.
  */
-const BASE_URL = 'https://specular-token-list.github.io'
-
+const BASE_URL = 'https://specularl2.github.io/specular-token-list'
 /**
  * Generates a token list from the data in the data folder.
  *

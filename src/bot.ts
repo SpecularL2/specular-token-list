@@ -71,7 +71,7 @@ export class Bot extends BaseServiceV2<TOptions, TMetrics, TState> {
       try {
         // We'll need this later
         const owner = 'specular'
-        const repo = 'specular-token-list.github.io'
+        const repo = 'specularl2.github.io/specular-token-list'
 
         // Compute the HMAC of the request body
         const sig = Buffer.from(req.get('X-Hub-Signature-256') || '', 'utf8')
