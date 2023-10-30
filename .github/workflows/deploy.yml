@@ -16,12 +16,12 @@ jobs:
       - name: Deploy JSON File
         run: |
           mkdir -p docs  # Create a directory for GitHub Pages
-          cp specular.token.list.json docs/  # Copy your JSON file to the GitHub Pages directory
+          cp specular.tokenlist.json docs/  # Copy your JSON file to the GitHub Pages directory
 
       - name: Commit and Push to GitHub Pages
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add docs/specular.token.list.json
+          git add docs/specular.tokenlist.json
           git commit -m "Update JSON file"
           git push
