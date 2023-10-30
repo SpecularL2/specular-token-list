@@ -8,9 +8,9 @@ on:
 jobs:
   generate:
     name: generate
-    if: |
-      github.event.head_commit.committer.username != 'github-actions[bot]' &&
-      github.repository == 'SpecularL2/specular-token-list/'
+    # if: |
+    #   github.event.head_commit.committer.username != 'github-actions[bot]' &&
+    #   github.repository == 'SpecularL2/specular-token-list/'
 
     runs-on: ubuntu-latest
 
