@@ -10,7 +10,7 @@ jobs:
     name: generate
     if: |
       github.event.head_commit.committer.username != 'github-actions[bot]' &&
-      github.repository == 'specular-token-list/specular-token-list.github.io'
+      github.repository == 'SpecularL2/specular-token-list/'
 
     runs-on: ubuntu-latest
 
