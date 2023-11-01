@@ -20,7 +20,7 @@ export interface Token {
  */
 export type Chain =
   | 'specular'
-
+  | 'sepolia'
 const l2Chains = [
   'specular',
 ] as const
@@ -32,7 +32,7 @@ export const isL2Chain = (chain: string): chain is L2Chain => {
 
 export const isL1Chain = (chain: string): chain is L1Chain => !isL2Chain(chain)
 
-export type L1Chain = 'ethereum'
+export type L1Chain = 'ethereum' | 'sepolia'
 
 
 export interface TokenData {
