@@ -13,6 +13,12 @@ export const NETWORK_DATA: Record<Chain, Network> = {
     ),
     layer: 2,
   },
+  'sepolia': {
+    id: 11155111,
+    name: 'Sepolia',
+    provider: new ethers.providers.StaticJsonRpcProvider(`https://eth-sepolia-public.unifra.io`, 11155111),
+    layer: 1,
+  },
 }
 
 interface L2BridgeInformation {
@@ -47,6 +53,7 @@ export const L1_STANDARD_BRIDGE_INFORMATION: Record<
       l2Chain: 'specular',
       l1StandardBridgeAddress: '0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1',
     }
-  ]
+  ],
+  sepolia: []
 
 }

@@ -5,6 +5,9 @@
   "tokens": {
     "specular": {
       "address": "0x4d40D49cbbc18E58F4326c54E24793b84f050CD5"
+    },
+     "sepolia": {
+        "address": "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9"
     }
   }
 }

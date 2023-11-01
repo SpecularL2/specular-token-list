@@ -58,12 +58,11 @@ export const TOKEN_DATA_SCHEMA = {
     tokens: {
       type: 'object',
       properties: {
-        specular: TOKEN_SCHEMA
+        specular: TOKEN_SCHEMA,
+        sepolia: TOKEN_SCHEMA
       },
       additionalProperties: false,
-      anyOf: [
-        { required: ['specular'] },
-      ],
+      anyOf: [{ required: ['specular'] }, { required: ['sepolia'] }],
     },
   },
   additionalProperties: false,
