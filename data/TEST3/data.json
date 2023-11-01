@@ -1,0 +1,11 @@
+{
+  "name": "Test3",
+  "symbol": "TT3",
+  "decimals": 18,
+  "description": "Test token 3",
+  "tokens": {
+    "specular": {
+      "address": "0x317913D6aA179C62232E4F71c9871221E9859956"
+    }
+  }
+}
