@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-10-30T15:46:48.145Z",
+  "timestamp": "2023-11-01T12:35:54.005Z",
   "tokens": [
     {
       "chainId": 93481,
@@ -26,6 +26,14 @@
     },
     {
       "chainId": 93481,
+      "address": "0x317913D6aA179C62232E4F71c9871221E9859956",
+      "name": "Test3",
+      "symbol": "TT3",
+      "decimals": 18,
+      "logoURI": "https://specularl2.github.io/specular-token-list/data/TEST3/logo.svg"
+    },
+    {
+      "chainId": 93481,
       "address": "0x4d40D49cbbc18E58F4326c54E24793b84f050CD5",
       "name": "Wrapped Ether",
       "symbol": "WETH",
@@ -36,6 +44,6 @@
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 0
+    "patch": 1
   }
 }
