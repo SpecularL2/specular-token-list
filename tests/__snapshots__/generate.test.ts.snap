@@ -7,7 +7,7 @@ Object {
     "layer2",
     "infrastructure",
   ],
-  "logoURI": "https://specular-token-list.github.io/specular.svg",
+  "logoURI": "https://specularl2.github.io/specular-token-list/specular.svg",
   "name": "Specular Token List",
   "timestamp": "2022-08-17T17:00:00.000Z",
   "tokens": Array [
@@ -15,7 +15,7 @@ Object {
       "address": "0x592A4be1d111AE28be1a8EA8878007833ce7F402",
       "chainId": 93481,
       "decimals": 18,
-      "logoURI": "https://specular-token-list.github.io/data/TEST2/logo.svg",
+      "logoURI": "https://specularl2.github.io/specular-token-list/data/TEST2/logo.svg",
       "name": "Test2",
       "symbol": "TT2",
     },
